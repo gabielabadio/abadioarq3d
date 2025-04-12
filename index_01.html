@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABADIOARQ3D</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: url('FRONTAL.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(15, 15, 15, 0.8);
+      padding: 1em 2em;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      border-bottom: 1px solid #222;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>ABADIOARQ3D</strong></div>
+    <div>
+      <a href="#home">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <section id="home" class="container">
+    <h1>Bem-vindo ao ABADIOARQ3D</h1>
+    <p>Projetos arquitetônicos em 3D com qualidade e inovação.</p>
+  </section>
+
+  <section id="sobre" class="container">
+    <h1>Sobre</h1>
+    <p>Somos especialistas em visualizações arquitetônicas realistas, combinando design e tecnologia para criar experiências imersivas.</p>
+  </section>
+
+  <section id="projetos" class="container">
+    <h1>Projetos</h1>
+    <div class="galeria">
+      <img src="FACHADA_RAY_POS.png" alt="Projeto Fachada Ray">
+      <img src="POS SALA_FINAL.jpg" alt="Projeto Sala Final">
+    </div>
+  </section>
+
+  <section id="contato" class="container">
+    <h1>Contato</h1>
+    <p>Entre em contato: <a href="mailto:abadioarq3d@gmail.com" style="color: #0ff;">abadioarq3d@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ABADIOARQ3D. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
